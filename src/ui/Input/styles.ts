@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+interface InputFieldProps {
+  widthContainer?: string;
+}
+
+export const Container = styled.div<InputFieldProps>`
   display: flex;
   flex-direction: column;
   height: 55px;
-  width: 278px;
+  width: ${(props) => props.widthContainer || "278px"};
 `;
 
 export const Label = styled.label`
@@ -15,7 +19,7 @@ export const Label = styled.label`
 
 export const InputContainer = styled.input`
   height: 35px;
-  padding: 12px 4px;
+  padding: 4px 4px;
   font-size: 14px;
   border: 0;
   outline: 0;
