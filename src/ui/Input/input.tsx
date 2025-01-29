@@ -9,7 +9,7 @@ export default function Input( {text, widthContainer} : InputProps ) {
   return (
     <Container widthContainer={widthContainer}>
         <Label>{text}</Label>
-        <InputContainer/>
+        <InputContainer required={true}/>
     </Container>
   )
 }

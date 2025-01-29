@@ -7,6 +7,7 @@ export const Container = styled.form`
   height: 495px;
   gap: 45px;
   
+  
 
   h2{
     text-align: center;
@@ -18,5 +19,9 @@ export const Container = styled.form`
     display: flex;
     gap: 16px;
     
+  }
+
+  button {
+    align-items: center;
   }
 `

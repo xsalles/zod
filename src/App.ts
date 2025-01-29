@@ -38,8 +38,9 @@ export const SectionForm = styled.section`
   width: 1196px;
   height: 667px;
   display: flex;
-  align-items: center;
+  padding: 32px 0;
   justify-content: center;
   background-color: #fff;
   border-radius: 32px;
+  box-shadow: 6px 6px 186px #fff ;
 `
