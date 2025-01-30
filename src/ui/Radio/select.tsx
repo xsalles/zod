@@ -22,7 +22,6 @@ export default function Radio() {
       {options.map((option, index) => (
         <ContainerRadios>
           <RadioInput
-            required
             name="radioOption"
             key={index}
             value={option}

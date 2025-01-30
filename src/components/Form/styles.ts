@@ -21,6 +21,8 @@ export const Container = styled.form`
     
   }
 
+  fieldset > p 
+
   button {
     align-items: center;
   }
